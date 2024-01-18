@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.internal.FrameTen">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="14" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="607" height="453"/>
+    </constraints>
+    <properties>
+      <background color="-3298183"/>
+      <font name="Bahnschrift" size="12"/>
+      <foreground color="-1326"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="bbb2b" class="javax.swing.JLabel" binding="jlabel1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Century" size="26"/>
+          <text value="NOTIFICATION SETTINGS"/>
+        </properties>
+      </component>
+      <component id="b7570" class="javax.swing.JCheckBox" binding="check1">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="tan socks"/>
+        </properties>
+      </component>
+      <component id="7b325" class="javax.swing.JCheckBox" binding="check2">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="white socks"/>
+        </properties>
+      </component>
+      <component id="4fbfb" class="javax.swing.JCheckBox" binding="check3">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="black socks"/>
+        </properties>
+      </component>
+      <component id="b6b2b" class="javax.swing.JCheckBox" binding="check4">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="grey socks"/>
+        </properties>
+      </component>
+      <component id="da6bd" class="javax.swing.JCheckBox" binding="check5">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="yellow socks"/>
+        </properties>
+      </component>
+      <component id="57195" class="javax.swing.JCheckBox" binding="check6">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="orange socks"/>
+        </properties>
+      </component>
+      <component id="98a9e" class="javax.swing.JCheckBox" binding="check7">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="red socks"/>
+        </properties>
+      </component>
+      <component id="5717e" class="javax.swing.JCheckBox" binding="check8">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="blue socks"/>
+        </properties>
+      </component>
+      <component id="1c078" class="javax.swing.JCheckBox" binding="check9">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="purple socks"/>
+        </properties>
+      </component>
+      <component id="8ed78" class="javax.swing.JCheckBox" binding="check10">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="green socks"/>
+        </properties>
+      </component>
+      <component id="adc0e" class="javax.swing.JCheckBox" binding="check11">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="brown socks"/>
+        </properties>
+      </component>
+      <component id="dd982" class="javax.swing.JCheckBox" binding="check12">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="pink socks"/>
+        </properties>
+      </component>
+      <component id="c8bc2" class="javax.swing.JCheckBox" binding="check13">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="multicolour socks"/>
+        </properties>
+      </component>
+      <component id="2a627" class="javax.swing.JCheckBox" binding="check14">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12"/>
+          <text value="mismatched socks"/>
+        </properties>
+      </component>
+      <component id="e8f9b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="28b4a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5b04b" class="javax.swing.JLabel" binding="jlabel2">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Book Antiqua" size="16"/>
+          <text value="NOTIFY ME WHEN THERE IS A SPECIFIED"/>
+        </properties>
+      </component>
+      <component id="918a6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Book Antiqua" size="16"/>
+          <text value="AMOUNT OF PAIRS LEFT:"/>
+        </properties>
+      </component>
+      <component id="988e1" class="javax.swing.JButton" binding="backbtn">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+          <text value="BACK"/>
+        </properties>
+      </component>
+      <component id="e9593" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a2bb7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="60bd8" class="javax.swing.JButton" binding="clearbtn">
+        <constraints>
+          <grid row="11" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+          <text value="CLEAR"/>
+        </properties>
+      </component>
+      <component id="7033a" class="javax.swing.JButton" binding="selectbtn">
+        <constraints>
+          <grid row="12" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+          <text value="SELECT"/>
+        </properties>
+      </component>
+      <component id="1138b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2bac3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a2af4" class="javax.swing.JTextField" binding="txtfield1">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="3b35f" class="javax.swing.JTextField" binding="txtfield2">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="2c8e1" class="javax.swing.JTextField" binding="txtfield3">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="cae51" class="javax.swing.JTextField" binding="txtfield4">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="f2ce5" class="javax.swing.JTextField" binding="txtfield5">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="a98bf" class="javax.swing.JTextField" binding="txtfield6">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="2c7c8" class="javax.swing.JTextField" binding="txtfield7">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="9cfb7" class="javax.swing.JTextField" binding="txtfield8">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="5bf2f" class="javax.swing.JTextField" binding="txtfield9">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="cefbc" class="javax.swing.JTextField" binding="txtfield10">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="ec2ac" class="javax.swing.JTextField" binding="txtfield11">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="db42b" class="javax.swing.JTextField" binding="txtfield12">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="91ba4" class="javax.swing.JTextField" binding="txtfield13">
+        <constraints>
+          <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+      <component id="299e1" class="javax.swing.JTextField" binding="txtfield14">
+        <constraints>
+          <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1316"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

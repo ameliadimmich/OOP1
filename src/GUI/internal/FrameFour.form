@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.internal.FrameFour">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="13" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-3298183"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="9fa2" class="javax.swing.JLabel" binding="jlabel2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Book Antiqua" size="14" style="1"/>
+          <text value="TYPE:"/>
+        </properties>
+      </component>
+      <component id="46473" class="javax.swing.JLabel" binding="jlabel3">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Book Antiqua" size="14" style="1"/>
+          <text value="PATTERN:"/>
+        </properties>
+      </component>
+      <component id="f355b" class="javax.swing.JLabel" binding="jlabel4">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Book Antiqua" size="14" style="1"/>
+          <text value="COLOUR:"/>
+        </properties>
+      </component>
+      <component id="dd071" class="javax.swing.JLabel" binding="jlabel1">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Book Antiqua" size="18" style="0"/>
+          <text value="Please fill in the features of your new pair of shoes:"/>
+        </properties>
+      </component>
+      <component id="3c0f4" class="javax.swing.JRadioButton" binding="rbtn8">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="none"/>
+        </properties>
+      </component>
+      <component id="48176" class="javax.swing.JRadioButton" binding="rbtn2">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="heels"/>
+        </properties>
+      </component>
+      <component id="d258b" class="javax.swing.JRadioButton" binding="rbtn3">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="sandal heels"/>
+        </properties>
+      </component>
+      <component id="b32da" class="javax.swing.JRadioButton" binding="rbtn4">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <selected value="false"/>
+          <text value="knee high boots"/>
+        </properties>
+      </component>
+      <component id="93b61" class="javax.swing.JRadioButton" binding="rbtn5">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="sneakers"/>
+        </properties>
+      </component>
+      <component id="f1f59" class="javax.swing.JRadioButton" binding="rbtn6">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="boots"/>
+        </properties>
+      </component>
+      <component id="9f38c" class="javax.swing.JRadioButton" binding="rbtn7">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="loafers"/>
+        </properties>
+      </component>
+      <component id="e3168" class="javax.swing.JRadioButton" binding="rbtn9">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="stripes"/>
+        </properties>
+      </component>
+      <component id="809a3" class="javax.swing.JRadioButton" binding="rbtn10">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="dots"/>
+        </properties>
+      </component>
+      <component id="21654" class="javax.swing.JRadioButton" binding="rbtn11">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="checkered"/>
+        </properties>
+      </component>
+      <component id="95482" class="javax.swing.JRadioButton" binding="rbtn12">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="another"/>
+        </properties>
+      </component>
+      <component id="bc6b2" class="javax.swing.JComboBox" binding="combobox">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1326"/>
+          <model>
+            <item value="select"/>
+            <item value="tan"/>
+            <item value="white"/>
+            <item value="black"/>
+            <item value="grey"/>
+            <item value="yellow"/>
+            <item value="orange"/>
+            <item value="red"/>
+            <item value="blue"/>
+            <item value="purple"/>
+            <item value="green"/>
+            <item value="brown"/>
+            <item value="pink"/>
+            <item value="multiple"/>
+          </model>
+        </properties>
+      </component>
+      <component id="d8d58" class="javax.swing.JButton" binding="backbtn">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1326"/>
+          <text value="BACK"/>
+        </properties>
+      </component>
+      <component id="d0528" class="javax.swing.JButton" binding="clearbtn">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1326"/>
+          <text value="CLEAR"/>
+        </properties>
+      </component>
+      <component id="36bee" class="javax.swing.JButton" binding="selectbtn">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1326"/>
+          <text value="SELECT"/>
+        </properties>
+      </component>
+      <component id="a3b69" class="javax.swing.JRadioButton" binding="rbtn1">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+          <font name="Bahnschrift" size="12" style="1"/>
+          <text value="sandals"/>
+        </properties>
+      </component>
+      <component id="c467a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8472b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c5ae3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="ea962" binding="pTable" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3298183"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="13db" binding="spTable">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="cd3e4" class="javax.swing.JTable" binding="table">
+                <constraints/>
+                <properties>
+                  <background color="-1326"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <component id="1d3a9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
